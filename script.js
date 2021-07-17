@@ -19,7 +19,7 @@ var speedmultiple = 1;
 var checkstatusVar = setInterval(checkstatus, 1);
 var gravityVar = setInterval(gravity, 20);
 var birdgoright = setInterval(goright, 20);
-var pipegenerator = setInterval(createpipes, 1500);
+var pipegenerator = setInterval(createpipes, 1700);
 var scoreVar = setInterval(updatescore, 1);
 
 function updatescore()
