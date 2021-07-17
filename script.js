@@ -42,7 +42,7 @@ function rungameover()
 {
     bird.style.top = 250 + "px";
     gameon = false;
-    warning.innerHTML += "</br>Score: " + parseInt(actualscore);
+    warning.innerHTML += "</br>Score: " + parseInt(actualscore) + " (LOL)";
     warning.style.display = "block";
     score.innerHTML = "";
     clearInterval(gravityVar);
